@@ -5,19 +5,15 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-
 # Local configuration and secrets
 .env
 .env.*
 !.env.example
-
 # Local logs
 *.log
-
 # Frontend dependencies and build output
 node_modules/
 dist/
-
 # Local databases
 *.sqlite
 *.sqlite3
